@@ -9,7 +9,7 @@ header-image: images/casket-ivory-venice-14th.jpg
 header-title:
 header-position: 0px
 toc-section: piano
-geo: [45.416, 13.033]
+geo: [45.466, 12.258]
 placename: Venice
 tags:
   - ivory
