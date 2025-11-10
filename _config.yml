@@ -1,1 +1,8 @@
 baseurl: /medieval-marriages/
+repository: jeseyfried/medieval-marriages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "base"
+      
