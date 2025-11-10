@@ -1,4 +1,4 @@
-baseurl: /medieval-marriages/
+baseurl: /medieval-marriages
 repository: jeseyfried/medieval-marriages
 defaults:
   - scope:

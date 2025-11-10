@@ -1,36 +1,35 @@
-# Base image: Ruby with necessary dependencies for Jekyll
+# Base image: Ruby
 FROM ruby:3.2
 
-# Install dependencies
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     && rm -rf /var/lib/apt/lists/*
 
-
-# Create a non-root user with UID 1000
+# Create a non-root user
 RUN groupadd -g 1000 vscode && \
     useradd -m -u 1000 -g vscode vscode
 
-# Set the working directory
+# Set working directory
 WORKDIR /usr/src/app
 
-# Set permissions for the working directory
+# Copy Gemfile and Gemfile.lock first
+COPY Gemfile Gemfile.lock ./
+
+# Fix permissions so 'vscode' can write to the files
 RUN chown -R vscode:vscode /usr/src/app
 
-# Switch to the non-root user
+# Switch to non-root user
 USER vscode
 
-# Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
-
-
-
-# Install bundler and dependencies
-RUN gem install connection_pool:2.5.0
-RUN gem install bundler:2.3.26
+# Install Bundler and Ruby gems
+RUN gem install bundler:2.5.22
+RUN bundle config set force_ruby_platform true
 RUN bundle install
 
-# Command to serve the Jekyll site
-CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w"]
+# Copy the rest of the site files
+COPY --chown=vscode:vscode . .
 
+# Default command to serve Jekyll
+CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w"]

@@ -1,7 +1,7 @@
 ---
 title: Map
 layout: map 
-start_coords: [44.967, -103.767]
+start_coords: [43.692, 6.854]
 ---
 
 <!-- define JSON object for displaying data from site pages -->
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const pages = JSON.parse(document.getElementById('page-data').textContent);
 
   // Initialize the map
-  var map = L.map('map').setView({{ page.start_coords | jsonify }}, 4);
+  var map = L.map('map').setView({{ page.start_coords | jsonify }}, 5);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
