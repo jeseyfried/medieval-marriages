@@ -6,7 +6,7 @@ date: 2025-11-09
 
 # Why Use AI
 
-For this project, AI offered me the chance to interact with the historical content here in a new way. As I thought about how to gather my knowledge from reading texts throughout the semester, I came up provisional themes, categories, and arguments. I used the AI Chatbots to present me with a way of working with the material different from my own. AI was used to assist in the creation of this website in the following ways:
+For this project, used AI to search through over 600 websites. As I thought about how to gather my knowledge from reading texts throughout the semester, I came up provisional themes, categories, and arguments. I used the AI Chatbots to present me with a way of working with the material different from my own. AI was used to assist in the creation of this website in the following ways:
 
 ## Objects
 I used Chat GPT and Claude to generate recommendations for objects in museum collections that would provide a good representation of marriage in Western Europe in the Late Middle Ages. After viewing the lists, I noticed an underrepresentation of objects from museums in Spain and France. I prompted Claude for a new report that focused on museum collections in these two countries.
