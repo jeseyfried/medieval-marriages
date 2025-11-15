@@ -9,7 +9,7 @@ header-image: images/jouvenel-family-married-headdresses.jpg
 header-title:
 header-position: 0px
 toc-section: piano
-geo: [48.893, 2.455]
+geo: [48.893, 2.755]
 placename: Paris
 tags:
   - wood
