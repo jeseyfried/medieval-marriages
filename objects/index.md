@@ -8,6 +8,6 @@ date: 2025-11-09
 
 This is a list of all the material objects on the map.
 
-{% assign stacked_cards = site.pages | where_exp: "page", "page.path contains 'objects/'" %}
+{% assign stories = site.pages | where_exp: "page", "page.path contains 'objects/'" %}
 
-{% include card-stack.html cards = stacked_cards %}
+{% include card-grid.html cards = stories %}

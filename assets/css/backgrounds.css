@@ -26,7 +26,7 @@ BACKGROUNDs
   color: var(--text-primary);
   
   /* Visual */
-  background: white;
+  background: #0E1A2B;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }
