@@ -18,4 +18,4 @@ tags:
 ---
 
 # Birth Tray - Fourteenth Century
-This birth tray contains imagery of the goddess Diana.
+This birth tray contains imagery of the goddess Diana. 

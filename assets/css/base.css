@@ -95,7 +95,7 @@ html, body {
 }
 
 .container {
-  max-width: 52rem;
+  max-width: 80rem;
   margin: 0 auto;
   clear: both;
 }
@@ -414,4 +414,54 @@ BOOTSTRAP OVERRIDES
 
 @media (max-width: 768px) {
 
+}
+
+/* Scroll Spy */
+.scroll-spy-wrapper {
+  display:flex;
+  align-items:flex-start;
+  gap:1.5rem;
+}
+.scroll-spy-nav {
+  position:sticky;
+  top:3rem;
+  flex:0 0 280px;
+  width:280px;
+  max-height:calc(100vh - 2rem);
+  overflow:auto;
+  padding:.9rem;
+  border:1px solid #181717;
+  border-radius:6px;
+  background:#c26868;
+  font-size:.9rem;
+  margin-left: -100px;
+}
+.scroll-spy-nav h4 {
+  margin:0 0 .5rem;
+  font-size:.75rem;
+  letter-spacing:.5px;
+  text-transform:uppercase;
+}
+.scroll-spy-nav .nav-link {
+  display:block;
+  padding:.35rem .5rem;
+  text-decoration:none;
+  color:#222;
+  border-radius:4px;
+  transition:background var(--transition-fast);
+}
+.scroll-spy-nav .nav-link:hover { background:#e6e6e6; }
+.scroll-spy-nav .nav-link.active { background:var(--clay); color:#fff; }
+
+.page-content { flex:1 1 auto; min-width:0; }
+
+@media (max-width:768px) {
+  .scroll-spy-wrapper { flex-direction:column; }
+  .scroll-spy-nav {
+    position:relative;
+    flex:1 1 auto;
+    width:100%;
+    max-height:none;
+    margin-bottom:1rem;
+  }
 }

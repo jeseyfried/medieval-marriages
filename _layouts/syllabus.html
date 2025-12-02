@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include page-header.html %}
+  <body data-spy="scroll" data-target="#scrollSpyNav" data-offset="100">
+    {% if page.course-title != nil  %}
+      {% include nav-course-generic.html %}
+    {% else %}
+      {% include nav-top.html %}
+    {% endif %}
+    {% include nav-top.html %}
+    <div id="syllabus">
+      <nav class="scroll-spy-nav" id="scrollSpyNav">
+        <h4>Jump to</h4>
+        <nav class="nav nav-pills flex-column"></nav>
+      </nav>
+      <div class="syllabus-container">
+        {{ content }}
+        {% include page-footer.html %}
+      </div>
+    </div>
+  </body>
+</html>

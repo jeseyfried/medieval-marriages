@@ -4,15 +4,60 @@ layout: base
 date: 2025-11-09
 ---
 
+<div class="scroll-spy-wrapper">
+  <nav class="scroll-spy-nav" id="scrollSpyNav" aria-label="Section navigation">
+    <h4>Jump to</h4>
+    <div class="nav nav-pills flex-column"></div>
+  </nav>
+
+  <div id="pageContent" class="page-content" markdown="1">
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('#pageContent');
+  const nav = document.querySelector('#scrollSpyNav .nav');
+  if (!container || !nav) return;
+  const headings = container.querySelectorAll('h2');
+  headings.forEach(h => {
+    let id = h.id;
+    if (!id) {
+      id = h.textContent.trim().toLowerCase()
+        .replace(/[^\w]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      h.id = id;
+    }
+    const a = document.createElement('a');
+    a.className = 'nav-link';
+    a.href = '#' + id;
+    a.textContent = h.textContent;
+    nav.appendChild(a);
+  });
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        nav.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        const active = nav.querySelector('[href="#' + entry.target.id + '"]');
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '0px 0px -70% 0px', threshold: 1 });
+  headings.forEach(h => observer.observe(h));
+});
+</script>
+
+
+<br style="clear: both">
+
 # Why Use AI
 
-*Locating Objects of Interest:* For this project, I used AI to search through over 600 websites that contained information about objects related to marriage in the Late Middle Ages. It would have taken me dozens of hours to complete these searches through Google and within each museum's website.
+*Locating Objects of Interest:* For this project, I used AI to search through over 600 websites that contained information about objects related to marriage in the Late Middle Ages. It would have taken me dozens of hours to complete these searches through Google and within each museum's website. Even though I did an additional AI prompt focusing on museums in France and Spain, the results were so poor that in the end only six of the twenty-five objects are from French and Spanish museums.
+
+*Initial Research for Elizabeth Woodville and Edward IV:* Since my primary research interest is the marriage of Joan I of Aragon and Violant de Bar, I wanted to locate archival evidence of the marriages of other elites from around the same time period. Although I had read Nuria Silleras Fernandez's monograph on Maria de Luna and Marti I of Aragon, the king and queen who succeeded Joan and Violant, I hoped to find some comparisons beyond Iberia. Initially starting wtih Elizabeth Woodville and Edward IV, the information I got from AI chatbots helped me to get oriented to the current state of the documentary evidence for late medieval elite marriages outside of the Crown of Aragon.
 
 *Finding New Conceptual Connections:* As I thought about how to organize my knowledge from reading texts throughout the semester, I came up provisional themes, categories, and arguments. I used the AI Chatbots to experiment with other ways of organizing the information that had not come up in my own brainstorming. This use of AI does not replace or obviate my own thinking on how to organize information. Instead AI augmented my entertaining of various possibilities for thematic distinctions in historical narratives about medieval marriages.
 
 *Confirm an interpretive error in a secondary source:* I located an archival document that a historian had summarized in a footnote by retreiving it from the digitized portions of the Archive of the Crown of Aragon housed on PARES. When I read the original document, a key idea from the historian's interpetation appeared missing from the letter. I used Chat GPT to test out some ideas about word choices in the letter in an attempt to justify the historian's interpetation. 
 
-Given the different purposes and uses of AI for these three tasks, I have separated them into three categories for my AI Usage Statement: **Objects**, **Planning the Thematic Essays** and **Checking a Possible Mis-Reading in a Secondary Source**.
+Given the different purposes and uses of AI for these four tasks, I have separated them into four categories for my AI Usage Statement: **Objects**, **Elizabeth Woodville**, **Planning the Thematic Essays** and **Checking a Possible Mis-Reading in a Secondary Source**.
 
 ## Objects
 I used Chat GPT and Claude to generate recommendations for objects in museum collections that would provide a good representation of marriage in Western Europe in the Late Middle Ages. After viewing the lists, I noticed an underrepresentation of objects from museums in Spain and France. I prompted Claude for a new report that focused on museum collections in these two countries.
@@ -24,7 +69,7 @@ Prompt, Version 5.0 on November 5, 2025:
 **Evaluation:**
 - *Relevance to Prompt:* Over half of the suggested objects were useful, but the inclusion of several of the birth trays did not make sense given the prompt. Also, some of the rings were from the Early Middle Ages. (Score: 3/5)
 - *Contextual Information:* The object descriptions contained useful contextual information, such as the information about the connection between religious subject matter and cultural expections for marriage. However, some context was missing for Catherine of Siena on page 5 and an overgeneralized context for the caskets. (Score: 4/5)
-- *Accuracy of Information:* I think the lack of errors is due to the fact that the prompt asked the chatbot to draw from museum websites and had a very low demand for original writing. (Score: 5/5)
+- *Accuracy of Information:* I think the lack of errors is due to the fact that the prompt asked the chatbot to draw from museum websites and had a very low demand for original writing. I was impressed that ChatGPT pulled out of the Morgan Library's object record the fact that Catherine of Cleves likely instructed the creator of her Book of Hours to exclude her husband due to an unhappy marriage. (Score: 5/5)
 - *Quality of Explanation:* The explanatory sentences sometimes lack specificity. Some read as overly hedged, for example object number 29 when the chatbot says it could have been commemorating a wedding or a coronation. (Score 3/5)
 - *What Could Be Missing:* Major museums, such as the Met, were included. However, I notice the dominance of Anglophone museums and total lack of museums from Italy and France. (Score: 3/5)
 
@@ -33,11 +78,11 @@ Prompt, Version Sonnet 4.5 on November 5, 2025:
 > I am looking for images from museum websites that demonstrate important aspects of marriage in the late middle ages. Please provide me with a list, ideally of at least 30 objects, from various museum websites in North America and Europe, that directly relate to gaining a deeper understanding of marriage in Europe in the Late Middle Ages. Please include links. [Claude's first report →](pdfs/claude-search-medieval-marriage-objects.pdf)
 
 **Evaluation:**
-- *Relevance to Prompt:* (Score: /5)
-- *Contextual Information:* (Score: /5)
-- *Accuracy of Information:* (Score: /5)
-- *Quality of Explanation:*  (Score /5)
-- *What Could Be Missing:*  (Score: /5)
+- *Relevance to Prompt:* Claude did a much better job selecting items actually related to medieval marriage. The problem, as with ChatGPT, is that the LLM failed to adequately explain how a wedding gift might contain something meaningful about a marriage, or not. The girdle belt is an excellent example of this problem. Claude identified this object as related to marriage, but only in that it is a gift commonly given to a new bride, along with other betrothal gifts, according to a literary source. The LLM associates anything to with brides as meaningful for understanding marriage, which is only true in a minimal sense. Even worse, the inclusion of the unicorn tapestry at the Victoria and Albert Museum was a mistake to the point of hallucination, since the object record says nothing about betrothal or marriage. That said, several of the objects in the list did helpfully shed light on medieval marriage. (Score: 3/5)
+- *Contextual Information:* The contextual information in Claude's responses was strong and did not engage in over-generalization. Claude correctly connected heraldic imagery, or lack thereof, to meaningful information about medieval marriage. (Score: 5/5)
+- *Accuracy of Information:* Some of the British Library links no longer worked due to the cyber attack of 2023. Otherwise, though, the links worked and the text in the report matched what I found on the museum sites. (Score: 4/5)
+- *Quality of Explanation:* The explanation sometimes lacked information about why the object might communicate something meaningful about medieval marriage. However, as examples of when Claude did well with this: the Jewish wedding rings and the Romance of Gillion manuscript. (Score 3/5)
+- *What Could Be Missing:* Claude's textiles section totally failed to locate any meaningful textile objects that could be used to say something meaningful about marriage. The textiles included in Claude's report could only be listed as betrothal gifts. However, Claude included of jewelry beyond the Christian tradition by selecting Jewish wedding rings. Ideally, I would have seen at least some Muslim results, but the time period of the prompt made this a much more difficult task. (Score: 3/5)
 
 
 ### Claude's Report Focusing on Spain and France
@@ -45,24 +90,37 @@ Prompt, Version Sonnet 4.5 on November 5, 2025:
 > I am looking for images from museum websites in Spain and France that demonstrate important aspects of marriage in the late middle ages (years 1300-1450). Please provide me with a list, ideally of at least 40 objects, from various museum websites in Spain and France. Please include links for all the object records. In your search, please prioritize https://cataleg.museumares.bcn.cat/ and https://museuartmedieval.cat/en and https://collections.louvre.fr/en/ and https://www.musee-moyenage.fr/ [Claude's report focusing on museums in Spain and France →](pdfs/claude-museum-objects-from-spain-and-france.pdf)
 
 **Evaluation:**
-- *Relevance to Prompt:* (Score: /5)
-- *Contextual Information:* (Score: /5)
+- *Relevance to Prompt:* Claude did return objects in Spanish and French museums. It continued to have the problem of overemphasizing bertrothal gifts and courtship scenes. ChatGPT did much better at locating objects that clearly added information about marriage beyond the initial pre-marriage events of courtship and wedding. (Score: 3/5)
+- *Contextual Information:* This time Claude added much more contextual information about each object. Sometimes, though, as with the stained glass depiction of a chess game, the information could only relate to marriage through an extended inference. On the other hand, Claude provided excellent contexual information for other objects, such as the painting of the Jouvenel family and the ivory objects. (Score: 4/5)
 - *Accuracy of Information:* (Score: /5)
 - *Quality of Explanation:*  (Score /5)
-- *What Could Be Missing:*  (Score: /5)
+- *What Could Be Missing:* The absence of textiles reflects the low survival rate of medieval textiles in general. However, I can't help but suspect that there are textiles out there, tapestry depictions most likely, that relate information about medieval marriage. (Score: 3/5)
 
 
- 
+## Elizabeth Woodville
+In my coursework, my research focused on Iberia and the Mediterranean. While working on this project, I read about the marriage of Elizabeth Woodville and Edward IV of England in Shannon McSheffrey's book *Marriage, Sex and Civic Culture in Late Medieval London.* McSheffrey wrote:
+> In a society where sexual relationships were to be confined to marriage, a sexual ethic that was taken seriously by many, erotic desire became an important aspect of marriage decisions, one that often ran counter to more rational economic or political calculations. Even marriages at the highest levels illustrated this: the young king Edward IV, against all protocol and to his distinct political disadvantage, took as his wife the beautiful widow Elizabeth Woodville, an aristocrat by birth and marriage but no match for a king, apparently precisely because she had denied him her bed unless he contracted marriage with her.[^mcsheffrey]
+
+[^mcsheffrey]:Shannon McSheffrey, *Marriage, Sex and Civic Culture in Late Medieval London*, p.19
+
+In my ideal scenario, I would find some documentary evidence for this love match in letters between Edward IV and Elizabeth Woodville. I could then compare them to the way that Joan I of Aragon wrote in his letters to Violant de Bar. My initial searches in scholarly publications ran up against what seemed like a dearth of such archival records. I wondered what ChatGPT and Claude would report about what documents might survive. 
 
 ## Planning the Thematic Essays
 I drew on the perspective of AI Chatbots to consider how I might divide up the topic of medieval marriage into thematic essays. Before entering a prompt, I did brainstorming work on my own. 
 
 ### Pre-AI Brainstorming
 Before prompting AI, here is what I came up with:
+- Spousal Power Dynamics: in this thematic essay, I would connect the material objects to what I had read during the semester, and earlier in my graduate work, about the internal dynamics between spouses. In this essay, I would hopefully come to some conclusions about how Violant de Bar, Margaret Paston, and Margherita Datini represented exceptionality or typified the way that elite women exercised power in cooperation or in competition with their husbands' power.
+
+- Community Social Norms: From literary representations to gossip networks, communities reproduced and challenged social norms. This thematic essay would focus on the way social expectations of marriage might influence choices made by elite women and men. Social pressures from tradition, as well as in response to changing circumstances, likely produced an effect when it came to how medieval elites defined marriage. 
+
+- Church and State: Institutions shaped practices and expectations regarding marriage. For both elites and non-elites, officials of the church and officials of the state regulated marriage. By adjudicating disputes and administering punishments, these institutions did much to articulate the boundaries of proper behavior for husbands and wives. When a member of the highest echelon of the medieval elite, such as a king, behaved in a way that challenged gendered expectations, they sometimes got away with it. 
+
+- What is Love: This thematic essay would explore whether the evidence, archival or material, might allow for historians to make judgements about the emotional history of the marriages of medieval elites. Certainly to some extent the way medieval people conceptualized love remains inaccessible to modern scholars, but drawing out comparisions between medieval representations of love might nevertheless yield meaningful insights about the affective history of medieval marriages. 
 
 ### Innovations Suggested by AI
-Prompt, Version, Date:
-> Text of prompt. Link to prompt.
+Google Gemini 3 Pro, December 2, 2025:
+> I am a historian looking for new ideas on how to present four thematic essays about the history of medieval marriage for elites such as monarchs, nobility and wealthy merchants. To help me with this, I would like you to research the peer-reviewed historical scholarship on the history of medieval marriages. I want you to focus on Western Europe in the period 1200-1500. As I am thinking about the four topics for my thematic essays, I also want to make use of material objects in museum collections to demonstrate key ideas. With this in mind, please provide me with your recommendation for how I would divide the topic of medieval elite marriages into four thematic essays. In your report, give me four categories and an explanation for what each of the four essays would be about, referencing specific material objects and archival sources. Link to prompt.
 
 Evaluation:
 *Originality:* (Score /5)
