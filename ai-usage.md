@@ -92,7 +92,7 @@ Prompt, Version Sonnet 4.5 on November 5, 2025:
 **Evaluation:**
 - *Relevance to Prompt:* Claude did return objects in Spanish and French museums. It continued to have the problem of overemphasizing bertrothal gifts and courtship scenes. ChatGPT did much better at locating objects that clearly added information about marriage beyond the initial pre-marriage events of courtship and wedding. (Score: 3/5)
 - *Contextual Information:* This time Claude added much more contextual information about each object. Sometimes, though, as with the stained glass depiction of a chess game, the information could only relate to marriage through an extended inference. On the other hand, Claude provided excellent contexual information for other objects, such as the painting of the Jouvenel family and the ivory objects. (Score: 4/5)
-- *Accuracy of Information:* (Score: /5)
+- *Accuracy of Information:* I detected no errors in the data that Claude pulled from the museum websites that it searched. The links also worked perfectly. (Score: 5/5)
 - *Quality of Explanation:*  (Score /5)
 - *What Could Be Missing:* The absence of textiles reflects the low survival rate of medieval textiles in general. However, I can't help but suspect that there are textiles out there, tapestry depictions most likely, that relate information about medieval marriage. (Score: 3/5)
 
@@ -105,12 +105,34 @@ In my coursework, my research focused on Iberia and the Mediterranean. While wor
 
 In my ideal scenario, I would find some documentary evidence for this love match in letters between Edward IV and Elizabeth Woodville. I could then compare them to the way that Joan I of Aragon wrote in his letters to Violant de Bar. My initial searches in scholarly publications ran up against what seemed like a dearth of such archival records. I wondered what ChatGPT and Claude would report about what documents might survive. 
 
+### ChatGPT on Elizabeth Woodville
+Open AI Chat GPT Version 5.1, November 29, 2025:
+> I would like to look at digitized copies of letters written between Edward IV and Elizabeth Woodville. Are there any archives, in Britain or elsewhere, that have made such chancery documents, or letters in other types of archives, available on their websites? Also, are there any published document collections, or appendices to journal articles or monographs, that have transcripts of letters written between Edward IV and Elizabeth Woodville? [ChatGPT's response about Elizabeth Woodville →](pdfs/chatgpt-woodville.pdf)
+
+### Claude on Elizabeth Woodville
+Anthropic Claude, Version Opus 4.5, November 29, 2025:
+> I am researching Elizabeth Woodville, especially in the characteristics of her marriage to Edward IV. Can you tell me what documents exist written by her? Are there any letters that survive written from Edward IV to Elizabeth Woodville or from Woodville to Edward IV? If not, can you explain why those records might not have survived? Overall, I am looking for an explanation of the documentary record of the way that Elizabeth Woodville and Edward IV interacted with each other as spouses. What is available for me to consult in archives, published primary sources, and secondary sources? [Claude's report on Elizabeth Woodville →](pdfs/claude-elizabeth-woodville-opus4.5-1129.pdf)
+
+### Next Steps
+After learning that no archival sources surivive for the marriage of Edward IV and Elizabeth Woodville written by them, I asked Claude for guidance on where I might find archival sources on medieval marriage that I could use to draw comparisons to Joan and Violant. 
+> That was a good report. You have remembered that I also research Joan I of Aragon and Violant de Bar. There is actually an abundant documentary record of their marriage with a lot of their personal correspondence available in the Archive of the Crown of Aragon. Please do a new research report for me about other medieval monarchs, or elites of noble or bourgeois background, who have personal correspondence to each other that survives in the documentary record. Please limit your results to thirteenth through fifteenth century archival records. My goal is to find other personal correspondence between elite spouses in Western Europe that might demonstrate unusual levels of affection. [Claude's report on archival sources for elite marriages →](pdfs/claude-medieval-elite-spouses.pdf)
+
+Although Claude's report gave its highest recommendation to the Pastons and Datinis, archival sources I'd heard of before, it helped to focus my attention on the opportunities to use their letters as comparison points for Joan and Violant. 
+
+**Evaluation:**
+- *Relevance to Prompt:* I was very pleased with what Claude found, since I was only looking for two illustrative examples to use as comparison points for Joan and Violant. The information about Margaret Paston and Margherita Datini proved very relevant to my research goal. (Score: 5/5)
+- *Contextual Information:* Claude referenced significant peer-reviewed scholarship when pointing out contextual factors. It did this especially well for the Pastons and Datinis. The contextual information about the Archive of the Crown of Aragon was lacking in detail. (Score: 4/5)
+- *Accuracy of Information:* I know a lot about the Archive of the Crown of Aragon and so I could identify how Claude dramatically mis-represented the divisions of the archive and left out the Patrimonio Real. With far less knowledge of the Paston letters and the Datini archive, I couldn't know for sure how much Claude was getting write or wrong, but nothing raised a red flag for me. As for the other archival sources included in the report, I was learning about those for the first time. (Score 3/5)
+- *Quality of Explanation:* Claude did an excellent job situating the scholarship and archival sources in a larger explanation of how spousal correspondence might be usefully compared. (Score 5/5)
+- *What Could Be Missing:* I am suspicious about how the results might have been the low-hanging fruit. I wonder if there are many more elite spouses throughout Western Europe whose correspondence must survive in archives, but is simply not as voluminous or easy to access. In another instance of what I see as the central problem of LLMs for historical research, I have no idea whether Claude is accurately representing the extent of the archival opportunities for letters between medieval elite spouses. (Score: 2/5)
+
+
 ## Planning the Thematic Essays
 I drew on the perspective of AI Chatbots to consider how I might divide up the topic of medieval marriage into thematic essays. Before entering a prompt, I did brainstorming work on my own. 
 
 ### Pre-AI Brainstorming
 Before prompting AI, here is what I came up with:
-- Spousal Power Dynamics: in this thematic essay, I would connect the material objects to what I had read during the semester, and earlier in my graduate work, about the internal dynamics between spouses. In this essay, I would hopefully come to some conclusions about how Violant de Bar, Margaret Paston, and Margherita Datini represented exceptionality or typified the way that elite women exercised power in cooperation or in competition with their husbands' power.
+- Spousal Power Dynamics: in this thematic essay, I would connect the material objects to what I had read during the semester, and earlier in my graduate work, about the internal dynamics between spouses. In this essay, I would hopefully come to some conclusions about how Violant de Bar & Joan I of Aragon, Margaret Paston & John Paston, and Margherita Datini & Francesco Datini, represented exceptionality or typified the way that elite women exercised power in cooperation or in competition with their husbands' power.
 
 - Community Social Norms: From literary representations to gossip networks, communities reproduced and challenged social norms. This thematic essay would focus on the way social expectations of marriage might influence choices made by elite women and men. Social pressures from tradition, as well as in response to changing circumstances, likely produced an effect when it came to how medieval elites defined marriage. 
 
@@ -119,13 +141,19 @@ Before prompting AI, here is what I came up with:
 - What is Love: This thematic essay would explore whether the evidence, archival or material, might allow for historians to make judgements about the emotional history of the marriages of medieval elites. Certainly to some extent the way medieval people conceptualized love remains inaccessible to modern scholars, but drawing out comparisions between medieval representations of love might nevertheless yield meaningful insights about the affective history of medieval marriages. 
 
 ### Innovations Suggested by AI
-Google Gemini 3 Pro, December 2, 2025:
-> I am a historian looking for new ideas on how to present four thematic essays about the history of medieval marriage for elites such as monarchs, nobility and wealthy merchants. To help me with this, I would like you to research the peer-reviewed historical scholarship on the history of medieval marriages. I want you to focus on Western Europe in the period 1200-1500. As I am thinking about the four topics for my thematic essays, I also want to make use of material objects in museum collections to demonstrate key ideas. With this in mind, please provide me with your recommendation for how I would divide the topic of medieval elite marriages into four thematic essays. In your report, give me four categories and an explanation for what each of the four essays would be about, referencing specific material objects and archival sources. Link to prompt.
+I decided to try Google Gemini for the thematic essays. 
 
-Evaluation:
+Google Gemini 3 Pro, December 2, 2025:
+> I am a historian looking for new ideas on how to present four thematic essays about the history of medieval marriage for elites such as monarchs, nobility and wealthy merchants. To help me with this, I would like you to research the peer-reviewed historical scholarship on the history of medieval marriages. I want you to focus on Western Europe in the period 1200-1500. As I am thinking about the four topics for my thematic essays, I also want to make use of material objects in museum collections to demonstrate key ideas. With this in mind, please provide me with your recommendation for how I would divide the topic of medieval elite marriages into four thematic essays. In your report, give me four categories and an explanation for what each of the four essays would be about, referencing specific material objects and archival sources. [Gemini's report on thematic essays for elite marriages →](pdfs/gemini-medieval-marriage-themes.pdf)
+
+When Gemini was in 'thinking mode' I observed it identify gaps in research and target new searches to fill those gaps. Unfortunately, Gemini fails to retain the record of its live thinking (something that Claude does retain). For much of the live thinking, Gemini repeatedly referenced a legal case regarding the name Corbet. This did not make it into the initial report but I got curious about it. 
+
+
+
+**Evaluation:**
 *Originality:* (Score /5)
 *Accuracy:* (Score /5)
-*Usefulness:* (Score /5)
+*Usefulness:* I have doubts about the interpretive leap that Gemini took in its analysis of the role of marriage objects on page 8 of the report. Gemini claims that the objects did the 'work' of the marriage through binding, transporting, and defining. This reads to me like mimicry of the poetic moves sometimes made in scholarship but in that context always supported by much more theoretical and contextual qualification. (Score /5)
 *Who Did What:* (Score /5)
 
 
