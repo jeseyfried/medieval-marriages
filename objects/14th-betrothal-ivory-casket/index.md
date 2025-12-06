@@ -21,9 +21,16 @@ tags:
 {% include figure.html
   class="right"
   width="40%"
-  caption="Betrothal casket. [Source](https://www.artic.edu/artworks/107681/casket)"
+  caption="Ivory betrothal casket. [Source](https://www.artic.edu/artworks/107681/casket)"
   image-path="images/casket-ivory-venice-14th.jpg"
 %}
-This is an ivory betrothal casket.[^source1]
 
-[^source1]:Shannon McSheffrey, *Marriage, Sex and Civic Culture in Late Medieval London*, p.19
+### Connection to Website Themes
+
+**Spousal Power Dyanmics:** This object connects
+
+**Community Social Norms:** This object connects
+
+**Church and State:** This object connects
+
+**What is Love:** This object connects

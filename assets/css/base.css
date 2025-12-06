@@ -95,7 +95,7 @@ html, body {
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 60rem;
   margin: 0 auto;
   clear: both;
 }
