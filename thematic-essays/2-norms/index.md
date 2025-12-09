@@ -18,6 +18,8 @@ tags:
 
 Intro
 
+Gender roles and gender norms shaped much of a community's ideals for marriage and the social sanctions stemming from their disapproval. 
+
 The Paston Letters repeatedly reference marriages as concerns for the well-being of the whole family and each family member routinely weighed in on the suitability of potential matches.[^virgoe97]
 
 [^virgoe97]:Roger Virgoe, ed., *Illustrated Letters of the Paston Family*, (Macmillan, 1989), 97.

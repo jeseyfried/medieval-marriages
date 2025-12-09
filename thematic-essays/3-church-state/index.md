@@ -18,12 +18,22 @@ tags:
 
 Intro
 
-George Duby had argued that the legal definition of marriage derived from the desire to negotiate power between institutions.[^duby1] In the early centuries of the Middle Ages, the Church sought to absorb pagan betrothal customs into Christian practices. In addition, ecclesiastical authorities noticed an opportunity to gain political power if placed in the role of adjudicator in the marriage disputes of the elite class. As an early test case for this, the Church's involvement in the dispute over Lothar II's repudiation of his wife established ecclesiastical authorities as legitimate authorities over the marriages of emperors. The Fourth Lateran Council, convened by Innocent III in 1215, formalized this authority and embedded it in the legal frameworks of all polities in Christendom.[^davray28]
+George Duby had argued that the legal definition of marriage derived from the desire to negotiate power between institutions.[^duby1] In the early centuries of the Middle Ages, the Church sought to absorb pagan betrothal customs into Christian practices. Certain scriptural passages encouraged the absorbtion of pre-Christian marriage customs into Christian practices. 1 Corinthians 7:9 contains the phrase 'better to marry than to burn.' The burning here referred to lust, or the lack of self-control over one's sexual desires. 
+
+In addition, ecclesiastical authorities noticed an opportunity to gain political power if placed in the role of adjudicator in the marriage disputes of the elite class. As an early test case for this, the Church's involvement in the dispute over Lothar II's repudiation of his wife established ecclesiastical authorities as legitimate authorities over the marriages of emperors.[^heidecker1] The Fourth Lateran Council, convened by Innocent III in 1215, formalized this authority and embedded it in the legal frameworks of all polities in Christendom.[^davray28] In addition the Fourth Lateran Council confirmed marriage as one of the seven sacraments. D.L. D'Avray has noted that the Western European practice of political leaders submitting to Church authorities regarding their marriages and divorces remains unique in the history of monarchies.[^davray29]
 
 [^davray28]:D. L. D’Avray, *Papacy, Monarchy and Marriage, 860-1600*, (Cambridge University Press, 2015), 28.
 
+[^davray29]:D. L. D’Avray, *Papacy, Monarchy and Marriage, 860-1600*, (Cambridge University Press, 2015), 29.
+
 [^duby1]:Georges Duby, *Love and Marriage in the Middle Ages* (University of Chicago Press, 1994).
+
+[^heidecker1]:Karl Heidecker, *The Divorce of Lothar II: Christian Marriage and Political Power in the Carolingian World*, (Cornell University Press, 2010).
 
 The Church's statements and policies on marriage coincided with the secular focus on offspring as the purpose of a marriage.[^karras154] 
 
 [^karras154]:Ruth Mazo Karras, 'Women’s Labors: Reproduction and Sex Work in Medieval Europe,' *Journal of Women’s History* 15, no. 4 (2004): 153–58, at 154-155.
+
+Yet, as Ruth Mazo Karras has convincingly argued in *Unmarriages*, plenty of formations of unions existed that bent, or even ignored, the rules of marriage delineated by ecclesiastical authorities.[^karras-unmarriages1] The supposed rational order applied to adjudicating marriages often fell away as the pressures of diverse social situations created a constant need for making exceptions.
+
+[^karras-unmarriages1]:Ruth Mazo Karras, *Unmarriages: Women, Men, and Sexual Unions in the Middle Ages*, (University of Pennsylvania Press, 2012).
