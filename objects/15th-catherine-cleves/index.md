@@ -18,7 +18,7 @@ tags:
 
 # Book of Hours
 **c. 1440** <br style="clear: both">
-At first glance, this Book of Hours appears as yet another straightforward example of a married woman's prayerbook. The domestic scene depicting the child Christ with Joseph and Mary on Folio pp.146-149 of MS M.917/945 provides many clues about the ideals of a marriage, emphasizing an orderly division of labor and a content child. By contrast, Catherine of Cleve's own hate-filled marriage ended in violence. <br style="clear: both">
+At first glance, this Book of Hours appears as yet another straightforward example of a married woman's prayerbook. The domestic scene depicting the child Christ with Joseph and Mary on Folio pp.146-149 of MS M.917/945 provides many clues about the ideals of a marriage, emphasizing an orderly division of labor and a content child. By contrast, Catherine of Cleve's own hate-filled marriage ended in amidst violent political turmoil. <br style="clear: both">
 [The Morgan Library & Museum](https://www.themorgan.org/collection/Hours-of-Catherine-of-Cleves) <br style="clear: both">
 
 {% include figure.html
