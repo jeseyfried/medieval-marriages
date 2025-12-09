@@ -14,4 +14,14 @@ placename:
 tags:
 ---
 
-# Silver Fede Ring
+# What Is Love?
+
+Intro
+
+Although the mainstream view held that love mostly came after marriage, no shortage of well-documented cases survive in which the couple got married, at times agains the wishes of their parents, for reasons of love.[^crawford65]
+
+[^crawford65]:Anne Crawford, ed., *Letters of Medieval Women*, (Sutton, 2002), 65.
+
+Roger Virgoe has argued that Edward IV's love match with Elizabeth Woodville 'added a new set of rivalries to an already faction-ridden central government.'[^virgoe119]
+
+[^virgoe119]:Roger Virgoe, ed., *Illustrated Letters of the Paston Family*, (Macmillan, 1989), 119.

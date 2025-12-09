@@ -18,7 +18,7 @@ tags:
 
 # Amor Brooch
 **Mid-Fifteenth Century** <br style="clear: both">
-The letters hanging from the brooch spell 'amour.' <br style="clear: both">
+The letters hanging from the brooch spell 'amor.' <br style="clear: both">
 [The Metropolitan Museum of Art](https://www.metmuseum.org/art/collection/search/471817) <br style="clear: both">
 
 {% include figure.html

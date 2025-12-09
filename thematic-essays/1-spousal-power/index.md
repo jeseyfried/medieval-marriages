@@ -17,3 +17,23 @@ tags:
 # Spousal Power Dynamics
 
 The surviving historical evidence often obscures and silences the political power of medieval women. 
+
+
+
+Reviewing the letters of medieval elite women, Anne Crawford concludes that 'a working partnership' was typical.[^crawford67] 
+
+When her husband stayed in London for Parliament, or was thrown in prison, Margaret Paston conducted business as her husband's main representative in Norfolk.[^virgoe110]
+
+[^virgoe110]:Roger Virgoe, ed., *Illustrated Letters of the Paston Family*, (Macmillan, 1989), 110, 120-140.
+
+[^crawford67]:Anne Crawford, ed., *Letters of Medieval Women*, (Sutton, 2002), 67.
+
+
+In 1476, Elizabeth Stonor, the wife of a powerful aristocrat at the time of the War of the Roses, she left the children with her husband so that she could journey to London on business matters.[^crawford72]
+
+[^crawford72]:Anne Crawford, ed., *Letters of Medieval Women*, (Sutton, 2002), 72.
+
+
+On January 3, 1459, Elizabeth Poynings wrote to her mother, Agnes Paston, reminding her of several large sums of money due to Robert Poynings, her husband.[^virgoe101] Possibly the fact that money remained due to Robert gave Elizabeth additional leverage in their marriage, for the moment.
+
+[^virgoe101]:Roger Virgoe, ed., *Illustrated Letters of the Paston Family*, (Macmillan, 1989), 101.
