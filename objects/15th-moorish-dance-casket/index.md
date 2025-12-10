@@ -25,7 +25,7 @@ This small box, likely presented to the bride on her wedding day, depicts a late
   class="right"
   width="40%"
   caption="Fifteenth-century ivory wedding casket with Musliim dancers. [Source](https://collections.louvre.fr/en/ark:/53355/cl010109268)"
-  image-path="images/moorish-dance-ivory-casket.JPG"
+  image-path="images/moorish-dance-ivory-casket.jpg"
 %}
 
 ### Connection to Website Themes
