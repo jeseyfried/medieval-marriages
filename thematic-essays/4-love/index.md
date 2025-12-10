@@ -16,7 +16,7 @@ tags:
 
 # What Is Love?
 
-Intro
+Introduction
 
 Although the mainstream view held that love mostly came after marriage, no shortage of well-documented cases survive in which the couple got married, at times agains the wishes of their parents, for reasons of love.[^crawford65]
 
