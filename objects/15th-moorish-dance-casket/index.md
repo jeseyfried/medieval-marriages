@@ -3,9 +3,9 @@ title: Moorish Dance Wedding Casket
 author: Jonathan Seyfried
 layout: base
 date: 2025-11-09
-thumbnail: images/moorish-dance-ivory-casket.JPG
+thumbnail: images/moorish-dance-ivory-casket.jpg
 summary: c. 1435-1470. This small box, likely presented to the bride on her wedding day, depicts a late medieval interpretation of dance in the Muslim tradition.
-header-image: images/moorish-dance-ivory-casket.JPG
+header-image: images/moorish-dance-ivory-casket.jpg
 header-title:
 header-position: 0px
 toc-section: piano
