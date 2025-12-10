@@ -16,7 +16,7 @@ tags:
 
 # Church and State
 
-Intro
+As the two most prominent institutions in Western European medieval society, the Church and the State greatly influenced marriage practices.
 
 George Duby had argued that the legal definition of marriage derived from the desire to negotiate power between institutions.[^duby1] In the early centuries of the Middle Ages, the Church sought to absorb pagan betrothal customs into Christian practices. Certain scriptural passages encouraged the absorbtion of pre-Christian marriage customs into Christian practices. 1 Corinthians 7:9 contains the phrase 'better to marry than to burn.' The burning here referred to lust, or the lack of self-control over one's sexual desires. 
 
