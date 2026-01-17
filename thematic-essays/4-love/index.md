@@ -28,7 +28,7 @@ Despite all of the love stories in medieval literature, the mainstream view held
 
 
 
-[^bennet115]:Judith M. Bennett, *A Medieval Life: Cecilia Penifader and the World of English Peasants before the Plague*, Revised edition, (University of Pennsylvania Press, 2021), 115.
+[^bennett115]:Judith M. Bennett, *A Medieval Life: Cecilia Penifader and the World of English Peasants before the Plague*, Revised edition, (University of Pennsylvania Press, 2021), 115.
 
 [^crawford65]:Anne Crawford, ed., *Letters of Medieval Women*, (Sutton, 2002), 65.
 
